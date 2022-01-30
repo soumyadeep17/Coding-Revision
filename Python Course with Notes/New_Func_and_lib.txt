@@ -1,0 +1,2 @@
+New Functions i discover:
+1. Capitalize : Returns String with first letter capital of each word.
