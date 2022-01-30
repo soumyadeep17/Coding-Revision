@@ -1,2 +1,4 @@
 New Functions i discover:
 1. Capitalize : Returns String with first letter capital of each word.
+2. print(*(any iterable)) : prints every element in the iterable(iterable means list,string or tuple)
+3. cmath.phase : returns phase of a complex number
