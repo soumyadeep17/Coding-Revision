@@ -2,3 +2,5 @@ New Functions i discover:
 1. Capitalize : Returns String with first letter capital of each word.
 2. print(*(any iterable)) : prints every element in the iterable(iterable means list,string or tuple)
 3. cmath.phase : returns phase of a complex number
+4. set((dict)) : this will give all the key values of the dictionary
+5. set(enumerate(iterable)) : returns list of tuples of (index, element)
