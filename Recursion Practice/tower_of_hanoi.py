@@ -1,18 +1,12 @@
-def function(from_,to_,k):
-    if k == 0:
+# Method 1
+def function(from_,to_,khali_,k):
+    if k == 1:
         return [from_,to_]
-    if from_ + to_ ==3:
-        khali_ = 3
-    else:
-        khali_ = abs(from_ - to_)
-    return [function(from_,khali_,k-1),function(from_,to_,0),function(khali_,to_,k-1)]
+    return [function(from_,khali_,to_,k-1),function(from_,to_,khali_,1),function(khali_,to_,from_,k-1)]
 def towerOfHanoi(n):
     if n == 1:
-        return [function(1,2,0)]
-    if n == 2:
-        return function(1,2,1)
-    else:
-        return split_list(function(1,2,n-1))
+        return [function(1,2,3,1)]
+    return split_list([function(1,3,2,n-1),function(1,2,3,1),function(3,2,1,n-1)])
 def split_list(list1):
     ans = []
     for num in list1:
