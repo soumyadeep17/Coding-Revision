@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int arr[8] = {0, 1, 2, 0, 1, 2, 2, 0};
+    int arr[] = {0, 1, 2, 0, 1, 2, 2, 0};
     int arrSize = sizeof(arr) / sizeof(arr[0]);
     int i = 0;
     int j = 0;
@@ -41,10 +41,10 @@ int main()
         }
         j++;
     }
-    while (k < arrSize)
-    {
-        cout << arr[k] << " ";
-        k++;
-    }
+    // while (k < arrSize)
+    // {
+    //     cout << arr[k] << " ";
+    //     k++;
+    // }
     return 0;
 }
