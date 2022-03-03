@@ -1,5 +1,5 @@
-num = [4,5,6]   
-target = 6
+num = [4,234,41,424,23,2]   
+target = 2
 def search (num,start,end,target):
     if start == end and num[start] == target:
         return start
