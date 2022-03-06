@@ -3,6 +3,9 @@
         "*.m": "matlab",
         "vector": "cpp",
         "utility": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "xstring": "cpp",
+        "initializer_list": "cpp",
+        "xutility": "cpp"
     }
 }

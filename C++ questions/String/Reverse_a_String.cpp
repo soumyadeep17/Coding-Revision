@@ -10,6 +10,7 @@ void reverse_string(char string[] , int n){
     }
 }
 
+
 int main()
 {
     char x[30];
