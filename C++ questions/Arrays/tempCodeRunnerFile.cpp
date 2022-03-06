@@ -1,1 +1,3 @@
-    // int arr[] = {1, 4, 3, 2, 6, 7};
+void remove_first_element(int arr[]){
+
+// }
