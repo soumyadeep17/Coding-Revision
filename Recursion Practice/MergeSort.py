@@ -23,3 +23,5 @@ def mergeSorted(arr):
         return arr
     else:
         return merger(mergeSorted(arr[low:mid]),mergeSorted(arr[mid:high]))
+
+print(mergeSorted([50000-i for i in range(50000)]))

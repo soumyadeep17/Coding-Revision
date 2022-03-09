@@ -1,3 +1,2 @@
-    int a = 10;
-    *ptr = a;
-    cout << *ptr << endl;
+    p3.print();
+    return 0;

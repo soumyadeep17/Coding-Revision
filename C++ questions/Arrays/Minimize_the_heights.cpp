@@ -22,7 +22,7 @@ int getMinDiff(int arr[], int n, int k)
     {
        sort(arr , arr + n);
        int maxEle , minEle;
-       int result = arr[n-1] - arr[0]; {1,5,8,10}-> result = 9 {2,3} {1,4,8,10}  3,6
+       int result = arr[n-1] - arr[0];
        
        for(int i = 1 ; i < n ; i++)
        {
@@ -36,12 +36,12 @@ int getMinDiff(int arr[], int n, int k)
    }
 int main()
 {
-    int arr[] = {2,6,3,4,7,2,10,3,2,1};
-    int k = 5;
+    int arr[] = {1, 5, 8, 10};
+    int k = 2;                       
     int n = sizeof(arr)/sizeof(arr[0]);
     int mid = (n-1)/2;
     int temp = arr[mid];
-    sort(arr,arr + n);
+    sort(arr,arr + n);  
     for(int i = 0 ; i<n ;i++ ){
         if (i>mid & arr[i]>=k)
         arr[i] = arr[i] - k;

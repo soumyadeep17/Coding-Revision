@@ -38,14 +38,19 @@ int main()
         }
         if (elementinarray(arr1,uni_arrSize,arr2[j]) == 1)
         {
-            intersection[j] = arr2[j];
+            intersection[int_arrSize] = arr2[j];
             int_arrSize++;
         }
         j++;
     }
     for (int k = 0; k < uni_arrSize; k++)
     {
-        cout << uni[k];
+        cout << uni[k]<<endl;
     }
+    for (int k = 0; k < int_arrSize; k++)
+    {
+        cout << uni[k]<<endl;
+    }
+
     return 0;
 }
