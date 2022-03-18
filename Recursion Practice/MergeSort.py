@@ -4,12 +4,12 @@ def merger(arr1, arr2):
     j = 0
     arr3 = []
     while(i < len(arr1) and j<len(arr2)):
-        if arr2[j]<=arr1[i]:
+        if arr1[i]<=arr2[j]:
+            arr3.append(arr1[i])
+            i+=1
+        else:
             arr3.append(arr2[j])
             j = j+1
-        else:
-            arr3.append(arr1[i])
-            i = i+1
     if i < len(arr1):
         arr3.extend(arr1[i:])
     if j < len(arr2):
@@ -22,6 +22,8 @@ def mergeSorted(arr):
     if len(arr) == 1:
         return arr
     else:
-        return merger(mergeSorted(arr[low:mid]),mergeSorted(arr[mid:high]))
+        a= mergeSorted(arr[low:mid])
+        b= mergeSorted(arr[mid:high])
+        return merger(a,b)
 
-print(mergeSorted([50000-i for i in range(50000)]))
+print(mergeSorted([3,2,3,4]))

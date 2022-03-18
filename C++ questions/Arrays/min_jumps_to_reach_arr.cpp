@@ -20,7 +20,7 @@ int min_jumps(int arr[],int n)
 }
 int main()
 {                
-    // int arr[] = {1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9};
+    // int arr[] = {1, 3, 5, 8, 6, 2, 6, 7, 6, 8, 9};
     // int arr[] = {1, 4, 3, 2, 6, 7};
     int arr[] = {2,3,1,1,2,4,2,0,1,1};
     int n = sizeof(arr)/sizeof(arr[0]);

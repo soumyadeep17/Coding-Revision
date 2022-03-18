@@ -9,6 +9,9 @@
         "xutility": "cpp",
         "ostream": "cpp",
         "array": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "type_traits": "cpp",
+        "xhash": "cpp",
+        "algorithm": "cpp"
     }
 }

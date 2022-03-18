@@ -1,3 +1,4 @@
-void remove_first_element(int arr[]){
-
-// }
+else
+        //     count = 0;
+        
+        // j++;

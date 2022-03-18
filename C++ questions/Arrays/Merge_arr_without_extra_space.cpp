@@ -33,8 +33,12 @@ int main()
     vector<int> v1 = {2,3,7,8,14,16};
     vector<int> v2 = {5,8};
     mergeTwoSortedArray(v1,v2);
+    for(int i = 0; i<v1.size(); i++)
+    {
+        cout<<v1[i]<<endl;
+    }
     for(int i = 0; i<v2.size(); i++)
     {
-        cout<<v2[i];
+        cout<<v2[i]<<endl;
     }
 }

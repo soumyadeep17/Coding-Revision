@@ -1,5 +1,5 @@
 #include <iostream>
-#include <bits/stdc++.h>
+#include <algorithm>
 using namespace std;
 // input must be a array containing only one repeated element
 int main()
