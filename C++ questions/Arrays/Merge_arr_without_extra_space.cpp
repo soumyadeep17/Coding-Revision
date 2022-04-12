@@ -19,7 +19,7 @@ void mergeTwoSortedArray(vector<int> &v1, vector<int> &v2)
 {   
     int i = v1.size()-1;
     int j = 0;
-    while(v1[i]>v2[j])
+    while(v1[i]>v2[j] and j<v2.size())
     {
         swap(v1[i],v2[j]);
         i--;
