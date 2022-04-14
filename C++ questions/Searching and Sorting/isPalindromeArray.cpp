@@ -1,5 +1,6 @@
 #include<iostream>
 #include<algorithm>
+#include<string>
 #include <bits/stdc++.h>
 using namespace std;
     int count_digits(int x)
@@ -42,7 +43,6 @@ using namespace std;
     	        break;
                 i++;
     	}
-        cout<<i<<endl;
     	int x = (i<n)? 0: 1;
         return x;
     }
@@ -50,4 +50,6 @@ using namespace std;
     {
         int a[3] = {121,131,20};
         cout<<PalinArray(a,3)<<endl;
+        char i = 'A';
+        cout<<tolower('A')<<endl;
     }
